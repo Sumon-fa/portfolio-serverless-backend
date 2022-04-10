@@ -1,0 +1,50 @@
+@endpoint=https://ffg2t3gh29.execute-api.eu-west-1.amazonaws.com/prod/
+@token=eyJraWQiOiJHS25McnBiYm1WN3g3dmdVNnc4cmtkTGhFREJ6Y0E3R1ZxRTlLQ0VNVWY0PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmMGZjZTYyMS01NGRiLTQxNzEtOTJhZC1jZGI3MDBjNzI0YTkiLCJjb2duaXRvOmdyb3VwcyI6WyJhZG1pbnMiXSwiZW1haWxfdmVyaWZpZWQiOnRydWUsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVwvZXUtd2VzdC0xX2F3M3h0aE43OSIsImNvZ25pdG86dXNlcm5hbWUiOiJzdW1vbiIsIm9yaWdpbl9qdGkiOiIyZTE1ZjU5Yi03ZjVjLTQxYmItYTJjZS03ZTY5ZjQ5ZmNhMjYiLCJhdWQiOiIxYjZtMmYxMjc0czkyMDJ2amQ1cWluNGlyOSIsImV2ZW50X2lkIjoiYzhjOTM5NzEtZGVmNi00NmVhLWI3NjktNmIxNDRmYzYwZDMwIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2NDkxNDM4OTgsImV4cCI6MTY0OTE0NzQ5OCwiaWF0IjoxNjQ5MTQzODk4LCJqdGkiOiI2NTY0ZjRhZS0xMjAzLTQ0ZTgtOTE4OC0zYTBkMTAzMTBjNWYiLCJlbWFpbCI6ImZha2lyc3Vtb243OEBnbWFpbC5jb20ifQ.uUJ2TfGDS54ylIfe8umAOWnEX5jx7pAyxG43qvF0G_Cqr78PkyQiiicPiitA_XPiusaRKDq7sepdkCzeZGSpXkj-QXsBwo_tJ27yxjeiBk_UK-Pm6gTD-2T8rFypS4MJaJY6h-ecpaM6n5DcZ6Cs3Cgz3siOyLUX-M36eAuP6n-K_Ff1KYwfDmD9-Lfg8q5h4C6SbGZogDy5s14Y9oZDbOC78gbRItEWkT79Ncq34YNiWgHjzeZ4bk2RDWvVOlV-I2cZ2IVNj5lNhsINkS5KlXSYlksU9N1R-tmYxhJZtj0cAUaVjIgVRRutm4Z5zpOu4-wsjTFlZOAkN6SlRs5HQQ
+###
+POST {{endpoint}}/resume/
+Authorization: {{token}}
+Content-Type: application/json
+ 
+ {
+  
+  "introduction":"fhgf",   
+  "name":"sumon Fakir",
+  "birthday":"07-04-1990",
+  "linkedin":"https://www.linkedin.com/in/sumon-fakir-362765214/",
+  "github":"https://github.com/Sumon-fa",
+  "bitbucket":"https://bitbucket.org/dashboard/overview",
+  "city":"Helsinki, Finland",
+  "phone":"+358442422379",
+  "degree":"Diploma",
+  "image":"jfhfh",
+  "conclusion":"jgj"
+  }
+
+
+
+
+### 
+GET {{endpoint}}/resume/
+
+### 
+GET {{endpoint}}/resume?id=764e7ca5-ea56-450e-b7af-1f53bb74fbf6
+
+
+### 
+DELETE {{endpoint}}/resume?id=899f27f4-db3f-424d-8ddc-c296bded1e78
+###
+PUT {{endpoint}}/exercises?id=7883d715-b5ea-4b67-ab6b-b6a0566e0d9b
+Content-Type: application/json
+
+ {
+    "instructions": "blah blah blah b blah",
+    "creator": "sumon",
+    "visibility": true,
+    "category": "Mielenlujuus",
+    "permission": "team",
+    "link": "gfjgjfjfj.youtue.com",
+    "description": "dssdsdsdsdsdkl\ndgkgklfjgkfjgkf"
+   
+  }
+
+
